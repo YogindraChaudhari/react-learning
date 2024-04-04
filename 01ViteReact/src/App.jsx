@@ -1,8 +1,13 @@
-
+import Test from "./Test"
 function App() {
+  const username = 'username'
 
   return (
-    <h1>Learning React with vite || YC</h1>
+    <>
+    <Test />
+    <p>{username}</p> 
+    {/* called as evaluated expression */}
+    </>
   )
 }
 
