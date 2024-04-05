@@ -1,6 +1,7 @@
 import { useState } from "react"
 
-
+// onclick needs function and if we use onclick = {setcolor} it will give return
+// value, so that we have to use onclick = {() => setColor('red')}
 function App() {
   const [color, setColor] = useState("olive")
   return (
